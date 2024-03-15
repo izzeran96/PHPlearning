@@ -20,9 +20,9 @@
 
 <ul>
 
-<?php foreach($books as $book) : ? ?>
+<?php foreach($books as $book) : ?>
 <li>
-<?php $book['title'] ?>
+<?= $book['title'] ?>
 </li>
 <?= endforeach; ?>
 </ul>
