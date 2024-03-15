@@ -18,12 +18,13 @@
 ];
 ?>
 
-<?php foreach($books as $book) : ? ?>
-
 <ul>
+
+<?php foreach($books as $book) : ? ?>
 <li>
 <?php $book['title'] ?>
 </li>
+<?= endforeach ?>
 </ul>
 
 
