@@ -1,0 +1,8 @@
+<?php
+
+return [
+   'array_key' => 'value',
+  'array_key2' => 'value',
+]
+
+?>
