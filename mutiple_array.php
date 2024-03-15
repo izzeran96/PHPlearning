@@ -21,7 +21,9 @@
 <?php foreach($books as $book) : ? ?>
 
 <ul>
-<li><
+<li>
+<?php $book['title'] ?>
+</li>
 </ul>
 
 
