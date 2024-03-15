@@ -1,3 +1,8 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
 <?php 
  $books = [
    [
@@ -19,3 +24,6 @@
 <li><
 </ul>
 
+
+</body>
+</html>
