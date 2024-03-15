@@ -24,7 +24,7 @@
 <li>
 <?php $book['title'] ?>
 </li>
-<?= endforeach ?>
+<?= endforeach; ?>
 </ul>
 
 
