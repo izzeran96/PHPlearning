@@ -1,18 +1,21 @@
 <?php 
  $books = [
    [
-  'title' => '',
-   'author' => '',
+  'title' => 'The story malaysia',
+   'author' => 'ahmad samsudin',
    'purchaseUrl' = 'http://example.com'
   ],
-
     [
-'title' => '',
-   'author' => '',
+'title' => 'Sundaland and nusantara',
+   'author' => 'ari pribowo',
    'purchaseUrl' = 'http://example.com'
-
 ]
-
 ];
-
 ?>
+
+<?php foreach($books as $book) : ? ?>
+
+<ul>
+<li><
+</ul>
+
