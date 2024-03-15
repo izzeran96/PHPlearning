@@ -1,6 +1,6 @@
 <?php 
 
-public function ($argurment) {
+public function func1($argurment) {
 
 }
 
