@@ -10,7 +10,7 @@ die();
 
 dd($value);
 
-urlIs($value){
+function urlIs($value){
  return $_SERVER['REQUEST_URL'];
 }
 
