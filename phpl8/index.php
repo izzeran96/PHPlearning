@@ -5,11 +5,14 @@ function dd($value){
  echo "";
  var_dump($value);
  echo "";
+die();
 }
 
 dd($value);
 
-urlIs($value){}
+urlIs($value){
+ return $_SERVER['REQUEST_URL'];
+}
 
 
  ?>
