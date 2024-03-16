@@ -16,10 +16,10 @@
 ]
 ];
 
- function filterByAuthor($books){
+ function filterByAuthor($books,$author){
  $filteredBooks = [];
   foreach ($books as $book){
-if ($book['author'] ===  'ari pribowo'){
+if ($book['author'] ===  $author){
   $filteredBooks[] = $book;
 }
 }
@@ -29,7 +29,7 @@ if ($book['author'] ===  'ari pribowo'){
 
 <ul>
 
-<?php foreach($books as $book) : ?>
+<?php foreach(filteredByAuthor($books,$author) as $book) : ?>
 <li>
 <?= $book['title'] ?>
 </li>
