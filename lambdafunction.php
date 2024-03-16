@@ -26,12 +26,12 @@ if ($book['author'] ===  $author){
   return $filteredBooks;
 }
 
-  $filterByAuthor = filterByAuthor($books,$author);
+  $filterByAuthor = filterByAuthor($books,'ahmad samsudin');
 ?>
 
 <ul>
 
-<?php foreach ($filterByAuthor($books,'ari pribowo') as $book) : ?>
+<?php foreach ($filterByAuthor as $book) : ?>
 <li>
 <?= $book['title'] ?>
 </li>
