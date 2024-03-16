@@ -5,7 +5,7 @@
 <?php 
 <ul>
 
-<?php foreach ($filterByAuthor as $book) : ?>
+<?php foreach ($filteredBook as $book) : ?>
 <li>
 <a href="<?= $book['purchaseUrl'] ?>"></a>
 <?= $book['title'] ?>
