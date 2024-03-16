@@ -7,7 +7,7 @@ function dd($value){
  echo "";
 }
 
-dd();
+dd($value);
 
 urlIs($value){}
 
