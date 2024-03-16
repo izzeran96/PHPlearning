@@ -15,6 +15,12 @@
    'purchaseUrl' = 'http://example.com'
 ]
 ];
+
+ function filterByAuthor($books){
+ $filteredBooks[];
+
+ 
+}
 ?>
 
 <ul>
