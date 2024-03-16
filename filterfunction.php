@@ -17,8 +17,11 @@
 ];
 
  function filterByAuthor($books){
- $filteredBooks[];
+ $filteredBooks = [];
+  foreach ($books as $book){
+  
 
+}
  
 }
 ?>
