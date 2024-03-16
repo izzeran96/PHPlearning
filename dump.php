@@ -9,8 +9,8 @@ function dd($value){
 
 }
 
-function urlIs(){
-  $_SERVER['REQUEST_URL];
+function urlIs($value){
+  $_SERVER['REQUEST_URL] === $value;
 }
 
 dd($value);
