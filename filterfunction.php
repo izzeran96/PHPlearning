@@ -19,10 +19,10 @@
  function filterByAuthor($books){
  $filteredBooks = [];
   foreach ($books as $book){
-  
+if ($book['author'] ===  'ari pribowo'){
 
 }
- 
+}
 }
 ?>
 
