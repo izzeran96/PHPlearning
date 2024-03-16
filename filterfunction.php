@@ -20,9 +20,10 @@
  $filteredBooks = [];
   foreach ($books as $book){
 if ($book['author'] ===  'ari pribowo'){
-
+  $filteredBooks[] = $book;
 }
 }
+  return filterByAuthor();
 }
 ?>
 
