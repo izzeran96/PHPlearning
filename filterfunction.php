@@ -7,12 +7,12 @@
    [
   'title' => 'The story malaysia',
    'author' => 'ahmad samsudin',
-   'purchaseUrl' = 'http://example.com'
+   'purchaseUrl' => 'http://example.com'
   ],
     [
 'title' => 'Sundaland and nusantara',
    'author' => 'ari pribowo',
-   'purchaseUrl' = 'http://example.com'
+   'purchaseUrl' => 'http://example.com'
 ]
 ];
 
@@ -29,11 +29,11 @@ if ($book['author'] ===  $author){
 
 <ul>
 
-<?php foreach(filteredByAuthor($books,$author) as $book) : ?>
+<?php foreach (filterByAuthor($books,'ari pribowo') as $book) : ?>
 <li>
 <?= $book['title'] ?>
 </li>
-<?= endforeach; ?>
+<?php endforeach; ?>
 </ul>
 
 
