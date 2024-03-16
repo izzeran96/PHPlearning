@@ -14,8 +14,8 @@
 ];
 
 $filteredBook = array_filter($books,function($book){
- return $book[] === 
+ return $book['author'] === '';
 });
 
-require 'index.viex.php';
+require 'index.view.php';
 ?>
